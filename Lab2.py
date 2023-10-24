@@ -2,7 +2,7 @@ import statistics
 
 
 def display_main_menu():
-    print("Enter some numbers separated by commas(e.g. 5, 67, 32")
+    print("Enter some numbers separated by commas(e.g. 5, 67, 32)")
 
 
 def get_user_input():
@@ -41,8 +41,8 @@ def main():
     print("Max temperature is " + str(maxVal))
     sortedTemp = sort_temperature(num_list)
     print("Temperatures in ascending order is " + str(sortedTemp))
-    medianTemp = calc_median_temperature(num_list)
-    print("Median of temperatures is " + str(medianTemp))
+    medianTemperature = calc_median_temperature(num_list)
+    print("Median of temperatures is " + str(medianTemperature))
 
 if __name__ == "__main__":
     main()
